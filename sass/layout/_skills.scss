@@ -1,0 +1,71 @@
+.skills {
+    background-image: url('../assets/images/skills-background.jpg');
+    background-position: right;
+    background-size: cover;
+    padding: 10rem 0;
+
+    @media (max-width:$screen-md) {
+        padding: 2rem 0;
+    }
+
+    &__container {
+        flex: .5;
+        display: flex;
+        align-items: center;
+        width: 85%;
+        margin: auto;
+        padding: 4rem 0;
+
+        @media (max-width:$screen-sm) {
+            padding: 1.5rem 0;
+        }
+
+    }
+
+    &__all-progressbars {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__progress {
+        background-color: #fff;
+        width: 20rem;
+        margin: .2rem 0 0 1rem 0;
+        border-radius: 6px;
+
+        @media (max-width:$screen-sm) {
+            width: 85%;
+            margin: auto;
+        }
+
+    }
+
+    &__progress-bar {
+        width: 10rem;
+        height: .36rem;
+        background-color: $color-primary;
+        border-radius: 6px;
+
+        &--1 {
+            width: 75%;
+        }
+
+        &--2 {
+            width: 90%;
+        }
+
+        &--3 {
+            width: 63%;
+        }
+    }
+
+    h2 {
+        font-size: 2.2rem;
+        margin-bottom: 2.5rem;
+    }
+
+    h6 {
+        margin: 1.3rem 0;
+        font-size: 1rem;
+    }
+}

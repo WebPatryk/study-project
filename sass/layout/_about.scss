@@ -1,0 +1,26 @@
+.about {
+    padding: 3rem 0;
+
+    @media (max-width:$screen-md) {
+        width: 85%;
+        margin: 2rem auto;
+    }
+
+    h2 {
+        text-align: center;
+        font-size: 2.6rem;
+        text-transform: capitalize;
+    }
+
+    p {
+        max-width: 40rem;
+        margin: 1.5rem auto 0;
+        text-align: center;
+    }
+
+    img {
+        width: 10rem;
+        display: block;
+        margin: auto;
+    }
+}
