@@ -1,0 +1,96 @@
+.popup {
+    position: relative;
+    z-index: 999;
+
+    &__content {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 80%;
+        background-color: lightgray;
+        border-radius: 3px;
+    }
+
+    &__container {
+        display: flex;
+        justify-content: space-between;
+
+        @media (max-width:$screen-xl) {
+            flex-direction: column;
+        }
+
+        >div {
+            padding: 3rem;
+
+            @media (max-width:$screen-xl) {
+                padding: 1rem;
+            }
+        }
+    }
+
+    &__title {
+        font-size: 2.6rem;
+        font-weight: 500;
+        margin: 1rem 0;
+
+
+
+    }
+
+    &__subtitle {
+        margin: 1.5rem 1.5rem 1.5rem 0;
+        color: gray;
+
+        @media (max-width:$screen-xl) {
+            font-size: .85rem;
+        }
+    }
+
+    &__data {
+        b {
+            margin-right: .2rem;
+
+            @media (max-width:$screen-xl) {
+                font-size: .85rem;
+            }
+        }
+    }
+
+
+    &__close-container {
+        position: absolute;
+        top: 1rem;
+        right: 1.5rem;
+
+        @media (max-width:$screen-xl) {
+            top: 2rem;
+        }
+    }
+
+    &__close {
+
+        font-size: 1.4rem;
+        cursor: pointer;
+        transition: opacity .3s ease-in;
+        background-color: $color-white;
+        padding: 1rem;
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        text-align: center;
+
+        @media (max-width:$screen-xl) {
+            width: 30px;
+            height: 30px;
+            font-size: 1rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        &:hover {
+            opacity: .85;
+        }
+    }
+}

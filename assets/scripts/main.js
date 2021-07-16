@@ -31,7 +31,7 @@ const gallery = [
         client: "Thomas Michilson",
         data: "14.05.1995",
         share: "Twiiter",
-        image: "assets/images/1.jpg"
+        image: "images/1.jpg"
     },
     {
         id: 2,
@@ -41,7 +41,7 @@ const gallery = [
         client: "Joanna Krete",
         data: "10.02.1967",
         share: "Instagram,Facebook",
-        image: "assets/images/2.jpg"
+        image: "images/2.jpg"
     },
     {
         id: 3,
@@ -51,7 +51,7 @@ const gallery = [
         client: "Gregory Nichilson",
         data: "25.03.1978",
         share: "Facebook",
-        image: "assets/images/3.jpg"
+        image: "images/3.jpg"
     },
     {
         id: 4,
@@ -61,7 +61,7 @@ const gallery = [
         client: "Gregory Anewy",
         data: "07.11.1999",
         share: "Instagram",
-        image: "assets/images/4.jpg"
+        image: "images/4.jpg"
     },
     {
         id: 5,
@@ -71,7 +71,7 @@ const gallery = [
         client: "Michael Aztecky",
         data: "06.12.1995",
         share: "Twitter",
-        image: "assets/images/5.jpg"
+        image: "images/5.jpg"
     },
     {
         id: 6,
@@ -81,7 +81,7 @@ const gallery = [
         client: "Chris Monty",
         data: "10.05.1991",
         share: "Facebook",
-        image: "assets/images/6.jpg"
+        image: "images/6.jpg"
     }, {
         id: 7,
         title: "Model",
@@ -90,7 +90,7 @@ const gallery = [
         client: "Zophie Teoly",
         data: "17.09.2005",
         share: "Instagram",
-        image: "assets/images/7.jpg"
+        image: "images/7.jpg"
     }, {
         id: 8,
         title: "Autumn ",
@@ -99,7 +99,7 @@ const gallery = [
         client: "Takashi Nowvakov",
         data: "05.11.1999",
         share: "Instagram,Twitter",
-        image: "assets/images/8.jpg"
+        image: "images/8.jpg"
     }, {
         id: 9,
         title: "Lake",
@@ -108,7 +108,7 @@ const gallery = [
         client: "Michael Jordan",
         data: "23.11.1995",
         share: "Twitter,Facebook",
-        image: "assets/images/9.jpg"
+        image: "images/9.jpg"
     }, {
         id: 10,
         title: "View",
@@ -117,7 +117,7 @@ const gallery = [
         client: "Gregory Anders",
         data: "01.06.1976",
         share: "Facebook",
-        image: "assets/images/10.jpg"
+        image: "images/10.jpg"
     }, {
         id: 11,
         title: "Dusk",
@@ -126,7 +126,7 @@ const gallery = [
         client: "Any Thompson",
         data: "31.07.1977",
         share: "Instagram",
-        image: "assets/images/11.jpg"
+        image: "images/11.jpg"
     }, {
         id: 12,
         title: "Sunset",
@@ -135,7 +135,7 @@ const gallery = [
         client: "Matheo Nichelson",
         data: "11.03.2000",
         share: "Twitter",
-        image: "assets/images/12.jpg"
+        image: "images/12.jpg"
     }
 ]
 

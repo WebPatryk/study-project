@@ -1,0 +1,86 @@
+.header {
+    background-image: url('../images/header-background.jpg');
+    background-size: cover;
+    width: 100%;
+    min-height: 50vh;
+    position: relative;
+
+    nav {
+        width: 85%;
+        margin: auto;
+        padding: 2rem 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+
+
+    }
+
+    &__links {
+        display: flex;
+        list-style-type: none;
+
+        @media (max-width:$screen-lg) {
+            display: none;
+        }
+
+        li {
+            margin: 0 1rem;
+
+            a {
+                text-decoration: none;
+                text-decoration: uppercase;
+                font-weight: 500;
+                text-transform: uppercase;
+                color: $color-black;
+                transition: color .3s ease-in-out;
+                transition: color 0.3s ease-in-out;
+                display: block;
+
+                &:hover {
+                    color: $color-primary;
+                }
+            }
+        }
+    }
+
+    &__logo {
+        width: 3rem
+    }
+
+    &__info {
+        width: 85%;
+        margin: auto;
+    }
+
+    &__content {
+        margin: 3rem 0 0 auto;
+        max-width: 30rem;
+
+        @media (max-width:$screen-lg) {
+            padding-bottom: 4rem;
+        }
+
+        h1 {
+            margin-bottom: 2rem;
+        }
+
+    }
+
+    &__button {
+        background-color: $color-primary;
+        padding: .7rem 1.5rem;
+        color: $color-white;
+        text-transform: uppercase;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        margin-top: 2rem;
+        transition: opacity .3s ease-in-out;
+
+        &:hover {
+            opacity: .7;
+        }
+    }
+}
